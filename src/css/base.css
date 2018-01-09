@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,div { margin:0; padding:0; color:#666;}
+*{box-sizing: border-box;}
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input,img { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+.clearfix:after {  /*清楚浮动*/
+    content:"";
+    display:block;
+    clear:both;
+    height: 0;
+    overflow:hidden;
+    visibility: hidden;
+    zoom:1;
+}
+ul,li{
+  list-style:none;
+}
+a {color:#666; text-decoration:none; }
+/*a:hover{color:#C81623;}*/
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+
+/*版心 提取 */
+.container {
+    width: 1190px;
+    margin:0 auto;
+}
+.box{
+    min-width: 980px;
+    _width: 980px;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+/*字体图标*/
+@font-face {font-family: "iconfont";
+  src: url('../he-iconfont/iconfont.eot?t=1506143026795'); /* IE9*/
+  src: url('../he-iconfont/iconfont.eot?t=1506143026795#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../he-iconfont/iconfont.ttf?t=1506143026795') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../he-iconfont/iconfont.svg?t=1506143026795#iconfont') format('svg'); /* iOS 4.1- */
+}
+.he-iconfont {
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gouwuche:before { content: "\f0148"; }
+
+.icon-dianhua:before { content: "\e61c"; }
+
+.icon-tian:before { content: "\e611"; }
+
+.icon-sanjiaoxing-copy-copy:before { content: "\e624"; }
+
+.icon-yousanjiao:before { content: "\e63a"; }
+
+.icon-xiayiye:before { content: "\e606"; }
+
+.icon-sousuo:before { content: "\e607"; }
+
+.icon-wenhao5:before { content: "\e63b"; }
+
+.icon-huixingzhen:before { content: "\e604"; }
+
+.icon-icon8:before { content: "\e505"; }
+
+.icon-sanjiaoshang:before { content: "\e8c9"; }
+/*公共部分*/
+
+/*头部导航开始*/
+
+
+/*尾部部导航开始*/
